@@ -1,5 +1,5 @@
 # Hardware Entropy Passwords
-A password generator that uses CPU's **on-chip entropy sources**, such as thermal and electronic noise for high randomness.
+A password generator that uses CPU's **on-chip entropy sources**, such as thermal and electronic noise for highly random seed.
 
 The program uses [RDRAND](https://en.wikipedia.org/wiki/RDRAND) CPU instruction which is supported by:
 - Intel Ivy Bridge (3rd Generation Core) and newer processors
