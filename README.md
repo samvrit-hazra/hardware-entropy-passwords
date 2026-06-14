@@ -54,3 +54,11 @@ sudo make uninstall
 ```
 make clean
 ```
+
+## Disclaimer
+
+The project is entirely human-written with zero LLM-written code. However LLMs were used only for the purpose of technical reference and documentation.
+
+This project is licensed under the GNU General Public License v3.0.
+
+This software is distributed WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
