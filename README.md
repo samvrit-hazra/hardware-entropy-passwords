@@ -1,7 +1,7 @@
 # Hardware Entropy Passwords
 A password generator that uses CPU's **on-chip entropy sources**, such as thermal and electronic noise for highly random seed.
 
-The program uses [RDRAND](https://en.wikipedia.org/wiki/RDRAND) CPU instruction which is supported by:
+The program uses **[RDRAND](https://en.wikipedia.org/wiki/RDRAND)** CPU instruction which is supported by:
 - Intel Ivy Bridge (3rd Generation Core) and newer processors
 - AMD Bulldozer and newer processors
 
@@ -9,7 +9,7 @@ For unsupported systems, the program uses `/dev/random` or time-based seed.
 
 (The following steps were tested only for Debian GNU/Linux)
 
-[![asciicast](https://asciinema.org/a/WHln0xZYiH4k7m6t.svg)](https://asciinema.org/a/WHln0xZYiH4k7m6t)
+![demo.mp4](https://raw.githubusercontent.com/samvrit-hazra/hardware-entropy-passwords/refs/heads/main/static/demo.mp4)
 
 ## Usage
 
